@@ -44,13 +44,13 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+        "name": "Criando minha primeira Pokedéx",
+        "url": "https://js-developer-pokedex-beryl.vercel.app/",
         "github": true
       },
       {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+        "name": "Criando meu primeiro site",
+        "url": "https://web-project-4-ptbr.vercel.app",
         "github": true
       }
     ],

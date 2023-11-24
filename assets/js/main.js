@@ -35,7 +35,6 @@
 
         const softSkillsGrid = document.querySelector(".content__skills__list");
         const softSkills = profileData.skills.softSkills;
-        console.log(softSkills)
         softSkills.map((value) => {
             return softSkillsGrid.innerHTML += `<li class="content__skills__list-item">
             ${value}</li>`
@@ -47,7 +46,6 @@
     function insertLangContent () {
         const langList = document.querySelector(".content__langs__list");
         const langs = profileData.languages;
-        console.log(langs)
         langs.map((value) => {
             langList.innerHTML += `
             <li class="content__langs__list-item">
@@ -59,5 +57,22 @@
 
     insertLangContent()
 
+    function insertProjectsContent () {
+        const projects = profileData.portfolio;
+        const projectList = document.querySelector(".projects__list");
 
+        projects.map((value) => {
+            projectList.innerHTML += `
+            <li class="projects__list-item">
+                <div class="projects__list-item__head">
+                    <img src="/Portfolio/data/images/icons8-github-32.png" alt="">
+                    <h4>${value.name}</h4>
+                </div>
+                <a href="${value.url}" target="_blank">
+                    <span>h${value.url}</span>
+                </a>
+            </li>`
+        })
+    }
+    insertProjectsContent()
 })()
