@@ -42,12 +42,12 @@
     display: flex;
     gap: 10px;
     margin: 0;
+    align-items: center;
 }
 
 .list__item__icon{
     max-width: 25px;
     max-height: 25px;
-    align-self: center;
 }
 .list__item__text{
     font-size: .8rem;

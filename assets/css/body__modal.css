@@ -40,7 +40,7 @@
     background-color: transparent;
     height: 2rem;
     width: 2rem;
-    background-image: url("/Portfolio/images/down-chevron.png");
+    background-image: url("/Portfolio/data/images/down-chevron.png");
     background-size: cover;
     cursor: pointer;
     transition: .2s;

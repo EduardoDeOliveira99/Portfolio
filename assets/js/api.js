@@ -1,4 +1,4 @@
-const url = "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/profile.json"
+const url = "https://raw.githubusercontent.com/EduardoDeOliveira99/Portfolio/main/data/profile.json"
 
 function getProfileData() {
     return fetch(url)
