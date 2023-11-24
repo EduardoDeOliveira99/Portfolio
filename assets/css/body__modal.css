@@ -1,7 +1,7 @@
 .body__modal{
     border: 3px solid black;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-bottom: 1.5rem;
     background-color:transparent;
@@ -40,7 +40,7 @@
     background-color: transparent;
     height: 2rem;
     width: 2rem;
-    background-image: url("/images/down-chevron.png");
+    background-image: url("/Portfolio/images/down-chevron.png");
     background-size: cover;
     cursor: pointer;
     transition: .2s;

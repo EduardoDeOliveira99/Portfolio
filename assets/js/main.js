@@ -1,2 +1,5 @@
-const getElement = document.querySelector;
 
+(async () => {
+    const profileData = await getProfileData();
+    
+})()

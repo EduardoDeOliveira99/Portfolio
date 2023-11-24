@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio - Eduardo</title>
-    <link rel="stylesheet" href="./assets/css/header.css" />
-    <link rel="stylesheet" href="./assets/css/body__modal.css" />
-    <link rel="stylesheet" href="./assets/css/global.css" />
-    <link rel="stylesheet" href="/assets/css/pro-skills.css">
-    <link rel="stylesheet" href="/assets/css/langs.css">
-    <link rel="stylesheet" href="/assets/css/pro-xp.css">
-    <link rel="stylesheet" href="/assets/css/projects.css">
+    <link rel="stylesheet" href="/Portfolio/assets/css/header.css" />
+    <link rel="stylesheet" href="/Portfolio/assets/css/body__modal.css" />
+    <link rel="stylesheet" href="/Portfolio/assets/css/global.css" />
+    <link rel="stylesheet" href="/Portfolio/assets/css/pro-skills.css">
+    <link rel="stylesheet" href="/Portfolio/assets/css/langs.css">
+    <link rel="stylesheet" href="/Portfolio/assets/css/pro-xp.css">
+    <link rel="stylesheet" href="/Portfolio/assets/css/projects.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -29,46 +29,46 @@
       <header class="header">
         <img
           class="header__image"
-          src="./images/foto Eduardo.jpg"
+          src="/Portfolio/images/foto Eduardo.jpg"
           alt="Foto de perfil profissional"
         />
         <div class="header__right">
-          <h1 class="header__title">Olá! Eu sou Eduardo de Oliveira</h1>
+          <h1 class="header__title">Olá! Eu sou <span id="name"></span></h1>
           <ul class="header__list">
             <li class="header__list__item">
               <img
                 class="list__item__icon"
-                src="./images/pessoa.png"
+                src="/Portfolio/images/pessoa.png"
                 alt="Ícone de pessoa"
               />
-              <p class="list__item__text">Desenvolvedor Web</p>
+              <p class="list__item__text" id="job"></p>
             </li>
             <li class="header__list__item">
               <img
                 class="list__item__icon"
-                src="./images/local.png"
+                src="/Portfolio/images/local.png"
                 alt="Íconde de localização"
               />
-              <p class="list__item__text">Santa Catarina - BR</p>
+              <p class="list__item__text" id="location"></p>
             </li>
             <li class="header__list__item">
               <img
                 class="list__item__icon"
-                src="./images/whatsapp.png"
+                src="/Portfolio/images/whatsapp.png"
                 alt="Ícone do app whatsapp"
               />
-              <p class="list__item__text">
-                <a href="tel:(47) 98860-3296">(47) 98860-3296</a>
+              <p class="list__item__text" id="phone">
+                <a href=""></a>
               </p>
             </li>
             <li class="header__list__item">
               <img
                 class="list__item__icon"
-                src="./images/o-email.png"
+                src="/Portfolio/images/o-email.png"
                 alt="Ícone de email"
               />
-              <p class="list__item__text">
-                <a href="mailto:edu.oliveira0899@gmail.com">edu.oliveira0899@gmail.com</a>
+              <p class="list__item__text" id="email">
+                <a href=""></a>
               </p>
             </li>
           </ul>
@@ -83,10 +83,10 @@
             <div class="modal__content__pro-skills">
                 <h3>Ferramentas:</h3>
                 <div class="content__pro-skills__grid">
-                    <img class="pro-skills__grid__icon" src="/images/js.png" alt="">
-                    <img class="pro-skills__grid__icon" src="/images/html-5-logotype.png" alt="">
-                    <img class="pro-skills__grid__icon" src="/images/css-3.png" alt="">
-                    <img class="pro-skills__grid__icon" src="/images/git.png" alt="">
+                    <img class="pro-skills__grid__icon" src="https://github.com/EduardoDeOliveira99/Portfolio/blob/main/images/git.png" alt="">
+                    <img class="pro-skills__grid__icon" src="" alt="">
+                    <img class="pro-skills__grid__icon" src="" alt="">
+                    <img class="pro-skills__grid__icon" src="" alt="">
                 </div>
             </div>
             <div class="modal__content__skills">
@@ -131,7 +131,7 @@
            <ul class="projects__list">
             <li class="projects__list-item">
               <div class="projects__list-item__head">
-                <img src="/images/icons8-github-32.png" alt="">
+                <img src="/Portfolio/images/icons8-github-32.png" alt="">
                 <h4>Criando minha primeira Pokedéx</h4>
               </div>
               <a href="https://js-developer-pokedex-beryl.vercel.app/" target="_blank">
@@ -140,7 +140,7 @@
             </li>
             <li class="projects__list-item">
               <div class="projects__list-item__head">
-                <img src="/images/icons8-github-32.png" alt="">
+                <img src="/Portfolio/images/icons8-github-32.png" alt="">
                 <h4>Criando meu primeiro site</h4>
               </div>
               <a href="https://web-project-4-ptbr.vercel.app" target="_blank">
@@ -178,7 +178,8 @@
       </section>
 
     </div>
-    <script src="/assets/js/pagination.js"></script>
-    <script src="/assets/js/api.js"></script>
+    <script src="/Portfolio/assets/js/api.js"></script>
+    <script src="/Portfolio/assets/js/main.js"></script>
+    <script src="/Portfolio/assets/js/pagination.js"></script>
   </body>
 </html>
