@@ -35,13 +35,29 @@
 
         const softSkillsGrid = document.querySelector(".content__skills__list");
         const softSkills = profileData.skills.softSkills;
-
+        console.log(softSkills)
         softSkills.map((value) => {
             return softSkillsGrid.innerHTML += `<li class="content__skills__list-item">
             ${value}</li>`
         })
     }
+
     insertSkillsContent()
+
+    function insertLangContent () {
+        const langList = document.querySelector(".content__langs__list");
+        const langs = profileData.languages;
+        console.log(langs)
+        langs.map((value) => {
+            langList.innerHTML += `
+            <li class="content__langs__list-item">
+                <p>${value.lang}</p>
+                <span>${value.level}</span>
+            </li> `
+        })
+    }
+
+    insertLangContent()
 
 
 })()
