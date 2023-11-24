@@ -19,9 +19,9 @@
         document.querySelector("#email").href = `mailto: ${email}`;
 
         
-    }
+    };
 
-    insertHeaderContent()
+    insertHeaderContent();
 
     function insertSkillsContent () {
 
@@ -39,9 +39,9 @@
             return softSkillsGrid.innerHTML += `<li class="content__skills__list-item">
             ${value}</li>`
         })
-    }
+    };
 
-    insertSkillsContent()
+    insertSkillsContent();
 
     function insertLangContent () {
         const langList = document.querySelector(".content__langs__list");
@@ -53,14 +53,13 @@
                 <span>${value.level}</span>
             </li> `
         })
-    }
-
+    };
+;
     insertLangContent()
 
     function insertProjectsContent () {
         const projects = profileData.portfolio;
         const projectList = document.querySelector(".projects__list");
-
         projects.map((value) => {
             projectList.innerHTML += `
             <li class="projects__list-item">
@@ -73,6 +72,26 @@
                 </a>
             </li>`
         })
-    }
-    insertProjectsContent()
-})()
+    };
+
+    insertProjectsContent();
+
+    function insertProfessionalExp () {
+        const proExpBlock = document.querySelector(".modal__content__block");
+        const proExp = profileData.professionalExperience;
+
+        console.log(proExp)
+        proExp.map((value) => {
+            proExpBlock.innerHTML += `
+            <div class="modal__content__pro-xp">
+                <h4>${value.name}</h4>
+                <span class="modal__content__date">${value.period}</span>
+                <p>${value.description}
+                </p>
+            </div>
+            `;
+        });
+    };
+
+    insertProfessionalExp();
+})();
