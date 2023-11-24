@@ -1,0 +1,46 @@
+body{ 
+    width: 100%;
+    background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    font-family: 'Josefin Sans', sans-serif;  
+    font-family: 'Open Sans', sans-serif;
+}    
+
+@import url(https://db.onlinewebfonts.com/c/38d41072aa88a50711d4d50dd0d50f6b?family=Neue+Machina+Regular);
+
+@font-face {
+    font-family: "Neue Machina Regular";
+    src: url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot");
+    src: url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.svg#Neue Machina Regular")format("svg");
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: .4s;
+}
+
+a:hover{
+    color: azure;
+}
+
+p {
+    margin: 0;
+}

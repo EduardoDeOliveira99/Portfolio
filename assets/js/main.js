@@ -1,0 +1,2 @@
+const getElement = document.querySelector;
+

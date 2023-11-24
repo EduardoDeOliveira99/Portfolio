@@ -1,0 +1,29 @@
+.modal__content__langs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.content__langs__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    
+}
+.content__langs__list p{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+.content__langs__list span{
+    font-size: .8rem;
+}
+.content__langs__list-item{
+    background-color: rgba(146, 150, 243, 0.788);
+    padding: 1rem;
+    border-radius: 1rem;
+    list-style: none;
+}

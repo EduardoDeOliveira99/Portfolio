@@ -1,0 +1,71 @@
+.body__modal{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    background-color:transparent;
+    transition: .3s;
+}
+.body__modal:hover{
+    background-color: rgb(118, 106, 224);
+}
+.body__modal_active{
+    background-color:  rgb(125, 112, 235);
+}
+.body__modal__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.body__modal__content{
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    transition: opacity .4s ease-in;
+}
+
+.body__modal__content_active{
+    display: flex;
+    height: 100%;
+    opacity: 1;
+    padding-bottom: 1rem;
+    justify-content: center;
+}
+.modal__header__button{
+    border: none;
+    background-color: transparent;
+    height: 2rem;
+    width: 2rem;
+    background-image: url("/images/down-chevron.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.modal__header__button_active{
+    transform: rotate(180deg);
+}
+
+.modal__header__button:hover{
+   opacity: .6;
+
+}
+
+.modal__container{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto 100px auto;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 90%;
+    position: relative;
+}
+
+
+
+
